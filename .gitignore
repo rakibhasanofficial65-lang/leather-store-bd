@@ -1,0 +1,24 @@
+# Database credentials
+config/database.php
+config/mail.php
+config/mailer.php
+
+# Database backups
+*.sql
+*.zip
+
+# Environment secrets
+.env
+.env.*
+
+# Composer dependencies
+/vendor/
+
+# Testing files
+test-db.php
+test-mail.php
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
